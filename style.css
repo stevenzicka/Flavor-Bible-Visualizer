@@ -1,0 +1,39 @@
+.title {
+    font-family: "Open Sans";
+    color: rgba(153, 200, 11, 0.99);
+}
+
+.node {
+    fill: rgb(203, 74, 74);
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.link {
+    stroke: #777;
+    stroke-width: 2px;
+}
+/* circle {
+    fill: rgb(190, 36, 36);
+} */
+line {
+    stroke: #ccc;
+    /* stroke: rgb(218, 178, 70) */
+}
+
+
+td, tr {
+    padding: 3px 10px;
+    text-align: center;
+}
+
+tbody {
+    display: block;
+    height: 100px;
+    overflow: auto;
+}
+
+#rowItem:hover {
+    cursor: pointer;
+    background-color: rgb(255, 145, 133);
+}
