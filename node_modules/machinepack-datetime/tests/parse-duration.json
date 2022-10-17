@@ -1,0 +1,43 @@
+{
+  "machine": "parse-duration",
+  "expectations": [{
+    "using": {
+      "toWhen": "1432056491087",
+      "fromWhen": "1432056597871"
+    },
+    "outcome": "success",
+    "returns": {
+      "hours": 0,
+      "minutes": 1,
+      "seconds": 46,
+      "milliseconds": 784,
+      "future": false
+    }
+  }, {
+    "using": {
+      "toWhen": "1432056597871",
+      "fromWhen": "1432056491087"
+    },
+    "outcome": "success",
+    "returns": {
+      "hours": 0,
+      "minutes": 1,
+      "seconds": 46,
+      "milliseconds": 784,
+      "future": true
+    }
+  }, {
+    "using": {
+      "toWhen": "1432056491087",
+      "fromWhen": "1477423309905"
+    },
+    "outcome": "success",
+    "returns": {
+      "hours": 12601,
+      "minutes": 53,
+      "seconds": 38,
+      "milliseconds": 818,
+      "future": false
+    }
+  }]
+}

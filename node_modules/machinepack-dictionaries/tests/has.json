@@ -1,0 +1,70 @@
+{
+  "machine": "has",
+  "expectations": [
+    {
+      "using": {
+        "dictionary": {
+          "fullName": "Bran Stark",
+          "direwolf": {
+            "name": "Summer"
+          }
+        },
+        "keyPath": "fullName"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "dictionary": {
+          "fullName": "Bran Stark",
+          "direwolf": {
+            "name": "Summer"
+          }
+        },
+        "keyPath": "direwolf"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "dictionary": {
+          "fullName": "Bran Stark",
+          "direwolf": {
+            "name": "Summer"
+          }
+        },
+        "keyPath": "direwolf.name"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "dictionary": {
+          "fullName": "Bran Stark",
+          "direwolf": {
+            "name": "Summer"
+          }
+        },
+        "keyPath": "name"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "dictionary": {
+          "fullName": "Bran Stark",
+          "direwolf": {
+            "name": "Summer"
+          }
+        },
+        "keyPath": "foobar"
+      },
+      "outcome": "success",
+      "returns": false
+    }
+  ]
+}

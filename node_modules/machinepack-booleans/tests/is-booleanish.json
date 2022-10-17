@@ -1,0 +1,54 @@
+{
+  "machine": "is-booleanish",
+  "expectations": [
+    {
+      "using": {
+        "string": "1"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "true"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "0"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "false"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": ""
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "2"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "string": "foo"
+      },
+      "outcome": "success",
+      "returns": false
+    }
+  ]
+}

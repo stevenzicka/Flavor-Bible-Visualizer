@@ -1,0 +1,194 @@
+{
+  "machine": "is-between",
+  "expectations": [
+    // Positive integer, within bounds of two positive integers
+    {
+      "using": {
+        "value": "10",
+        "min": "9",
+        "max": "11"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Positive integer, above bounds of two positive integers
+    {
+      "using": {
+        "value": "12",
+        "min": "9",
+        "max": "11"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    // Positive integer, below bounds of two positive integers
+    {
+      "using": {
+        "value": "8",
+        "min": "9",
+        "max": "11"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    // Positive integer, equal to upper bound of two positive integers
+    {
+      "using": {
+        "value": "9",
+        "min": "9",
+        "max": "11"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Positive integer, equal to lower bound of two positive integers
+    {
+      "using": {
+        "value": "11",
+        "min": "9",
+        "max": "11"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Positive real, within bounds of two positive integers
+    {
+      "using": {
+        "value": "10",
+        "min": "9.5",
+        "max": "11"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Positive integer, within bounds of two integers
+    {
+      "using": {
+        "value": "1",
+        "min": "0",
+        "max": "2"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Invalid bounds (min > max)
+    {
+      "using": {
+        "value": "1",
+        "min": "2",
+        "max": "0"
+      },
+      "outcome": "error"
+    },
+    // Positive integer, below bounds of two equal positive integers
+    {
+      "using": {
+        "value": "1",
+        "min": "2",
+        "max": "2"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    // Positive integer, equal to bounds
+    {
+      "using": {
+        "value": "2",
+        "min": "2",
+        "max": "2"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Negative integer, within bounds of two negative integers
+    {
+      "using": {
+        "value": "-10",
+        "min": "-11",
+        "max": "-9"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Invalid bounds (min > max)
+    {
+      "using": {
+        "value": "-10",
+        "min": "-9",
+        "max": "-11"
+      },
+      "outcome": "error"
+    },
+    // Negative integer, equal to lower bound of two negative integers
+    {
+      "using": {
+        "value": "-11",
+        "min": "-11",
+        "max": "-9"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Negative integer, equal to upper bound of two negative integers
+    {
+      "using": {
+        "value": "-9",
+        "min": "-11",
+        "max": "-9"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Negative integer, below bounds of two negative integers
+    {
+      "using": {
+        "value": "-12",
+        "min": "-11",
+        "max": "-9"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    // Negative integer, above bounds of two negative integers
+    {
+      "using": {
+        "value": "-8",
+        "min": "-11",
+        "max": "-9"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    // Positive real, within bounds of two positive reals
+    {
+      "using": {
+        "value": "1.10",
+        "min": "1.09",
+        "max": "1.11"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    // Positive real, above bounds of two positive reals
+    {
+      "using": {
+        "value": "1.12",
+        "min": "1.09",
+        "max": "1.11"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    // Positive real, below bounds of two positive reals
+    {
+      "using": {
+        "value": "1.08",
+        "min": "1.09",
+        "max": "1.11"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+
+  ]
+}

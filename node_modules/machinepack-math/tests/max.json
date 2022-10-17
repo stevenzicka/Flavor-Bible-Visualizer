@@ -1,0 +1,33 @@
+{
+  "machine": "max",
+  "expectations": [
+    {
+      "using": {
+        "numbers": []
+      },
+      "outcome": "success",
+      "returns": 0
+    },
+    {
+      "using": {
+        "numbers": [123]
+      },
+      "outcome": "success",
+      "returns": 123
+    },
+    {
+      "using": {
+        "numbers": [3,2,1,4]
+      },
+      "outcome": "success",
+      "returns": 4
+    },
+    {
+      "using": {
+        "numbers": [-3,-2,-1]
+      },
+      "outcome": "success",
+      "returns": -1
+    }
+  ]
+}

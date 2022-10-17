@@ -1,0 +1,42 @@
+{
+  "machine": "if-then-finally",
+  "expectations": [
+    {
+      "using": {
+        "bool": true,
+        "then": "function(inputs, exits) {return exits.success(5);}",
+        "orElse": "function(inputs, exits) {return exits.success(10);}",
+        "expectedOutput": 999
+      },
+      "outcome": "success",
+      "returns": 5
+    },
+    {
+      "using": {
+        "bool": false,
+        "then": "function(inputs, exits) {return exits.success(5);}",
+        "orElse": "function(inputs, exits) {return exits.success(10);}",
+        "expectedOutput": 999
+      },
+      "outcome": "success",
+      "returns": 10
+    },
+    {
+      "using": {
+        "bool": false,
+        "then": "function(inputs, exits) {return exits.success(5);}",
+        "expectedOutput": 999
+      },
+      "outcome": "success",
+      "returns": 0
+    },
+    {
+      "using": {
+        "bool": false,
+        "then": "function(inputs, exits) {return exits.success(5);}"
+      },
+      "outcome": "success",
+      "returns": null
+    }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+  "machine": "not",
+  "expectations": [
+    {
+      "using": {
+        "value": 0
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "value": false
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {},
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "value": ""
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "value": null
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "value": 1
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "value": 2
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "value": []
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "value": {}
+      },
+      "outcome": "success",
+      "returns": false
+    }
+  ]
+}

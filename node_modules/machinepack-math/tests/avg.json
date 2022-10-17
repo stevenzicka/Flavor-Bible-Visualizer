@@ -1,0 +1,26 @@
+{
+  "machine": "avg",
+  "expectations": [
+    {
+      "using": {
+        "numbers": []
+      },
+      "outcome": "success",
+      "returns": 0
+    },
+    {
+      "using": {
+        "numbers": [123]
+      },
+      "outcome": "success",
+      "returns": 123
+    },
+    {
+      "using": {
+        "numbers": [1,2,3,-5.5]
+      },
+      "outcome": "success",
+      "returns": 0.125
+    }
+  ]
+}

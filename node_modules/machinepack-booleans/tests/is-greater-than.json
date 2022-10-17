@@ -1,0 +1,87 @@
+{
+  "machine": "is-greater-than",
+  "expectations": [
+    {
+      "using": {
+        "a": 0,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": 0,
+        "b": 0,
+        "isInclusive": true
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": 1,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": 2,
+        "b": 1
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": 2,
+        "b": 10
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": "\"2\"",
+        "b": "\"10\""
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": true,
+        "b": false
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": false,
+        "b": true
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": false,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": false,
+        "b": 0,
+        "isInclusive": true
+      },
+      "outcome": "success",
+      "returns": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "machine": "parse-timestamp",
+  "expectations": [
+    {
+      "using": {
+        "timestamp": 1436115252963,
+        "timezone": "America/Chicago"
+      },
+      "outcome": "success",
+      "returns": {
+        "month": 7,
+        "date": 5,
+        "year": 2015,
+        "dayOfWeek": "Sunday",
+        "hour": 11,
+        "minute": 54,
+        "second": 12,
+        "millisecond": 963,
+        "timezone": "America/Chicago"
+      }
+    }
+  ]
+}

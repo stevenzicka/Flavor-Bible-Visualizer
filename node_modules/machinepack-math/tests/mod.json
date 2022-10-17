@@ -1,0 +1,50 @@
+{
+  "machine": "mod",
+  "expectations": [
+    {
+      "using": {
+        "a": "10",
+        "b": "2"
+      },
+      "outcome": "success",
+      "returns": 0
+    },
+    {
+      "using": {
+        "a": "5",
+        "b": "2"
+      },
+      "outcome": "success",
+      "returns": 1
+    },
+    {
+      "using": {
+        "a": "555555555",
+        "b": "22392359239235923"
+      },
+      "outcome": "success",
+      "returns": 555555555
+    },
+    {
+      "using": {
+        "a": "555555555",
+        "b": "0"
+      },
+      "outcome": "invalidDenominator"
+    },
+    {
+      "using": {
+        "a": "0",
+        "b": "0"
+      },
+      "outcome": "invalidDenominator"
+    },
+    {
+      "using": {
+        "a": 5,
+        "b": 0
+      },
+      "outcome": "invalidDenominator"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "machine": "resolve",
+  "expectations": [
+    {
+      "using": {
+        "path": "foodporn.png",
+        "from": "/foo/bar"
+      },
+      "outcome": "success",
+      "returns": "/foo/bar/foodporn.png"
+    },
+    {
+      "using": {
+        "path": "../foodporn.png",
+        "from": "/foo/bar"
+      },
+      "outcome": "success",
+      "returns": "/foo/foodporn.png"
+    },
+    {
+      "using": {
+        "path": "/foodporn.png",
+        "from": "/foo/bar"
+      },
+      "outcome": "success",
+      "returns": "/foodporn.png"
+    }
+  ]
+}

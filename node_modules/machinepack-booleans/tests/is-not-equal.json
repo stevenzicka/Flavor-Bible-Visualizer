@@ -1,0 +1,149 @@
+{
+  "machine": "is-not-equal",
+  "expectations": [
+    {
+      "using": {
+        "a": 0,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": 1,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": 2,
+        "b": 1
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": "\"2\"",
+        "b": "\"10\""
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": "\"10\"",
+        "b": "\"10\""
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": true,
+        "b": false
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": false,
+        "b": false
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": true,
+        "b": true
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": false,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": false,
+        "b": false
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": null,
+        "b": null
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": {"abc": 123},
+        "b": {"abc": "def"}
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": {"abc": 123},
+        "b": {"abc": 123}
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": {"abc": 123},
+        "b": {"abc": 123, "def": 666}
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": [1,2,3],
+        "b": [2,3,4]
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": [1,2,3],
+        "b": [1,2,3]
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": [1,{"id": 2},3],
+        "b": [1,{"id": 2},3]
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": [1,{"id": 2},3],
+        "b": [1,{"id": 3},3]
+      },
+      "outcome": "success",
+      "returns": true
+    }
+  ]
+}

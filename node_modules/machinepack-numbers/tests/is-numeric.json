@@ -1,0 +1,82 @@
+{
+  "machine": "is-numeric",
+  "expectations": [
+    {
+      "using": {
+        "string": "0"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "-5"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "5"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "5.5"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "1.5e+50"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "1.5e-50"
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "string": "Infinity"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "string": "-Infinity"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "string": "abc"
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "string": "\"true\""
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "string": "\"false\""
+      },
+      "outcome": "success",
+      "returns": false
+    }
+  ]
+}

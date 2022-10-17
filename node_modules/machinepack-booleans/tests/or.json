@@ -1,0 +1,104 @@
+{
+  "machine": "or",
+  "expectations": [
+    {
+      "using": {
+        "a": 0,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": false,
+        "b": false
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": false,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {},
+      "outcome": "success",
+      "returns": false
+    },
+    {
+      "using": {
+        "a": 1
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "b": 1
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": 1,
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": 1,
+        "b": 1
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": 2,
+        "b": 2
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": [],
+        "b": 0
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": [],
+        "b": 1
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": [],
+        "b": []
+      },
+      "outcome": "success",
+      "returns": true
+    },
+    {
+      "using": {
+        "a": {},
+        "b": []
+      },
+      "outcome": "success",
+      "returns": true
+    }
+  ]
+}

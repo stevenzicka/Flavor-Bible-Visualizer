@@ -1,0 +1,26 @@
+{
+  "machine": "abs",
+  "expectations": [
+    {
+      "using": {
+        "number": "100"
+      },
+      "outcome": "success",
+      "returns": 100
+    },
+    {
+      "using": {
+        "number": "-100"
+      },
+      "outcome": "success",
+      "returns": 100
+    },
+    {
+      "using": {
+        "number": "0"
+      },
+      "outcome": "success",
+      "returns": 0
+    }
+  ]
+}
