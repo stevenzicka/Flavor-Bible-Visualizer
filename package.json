@@ -1,7 +1,7 @@
 {
   "name": "flavor-bible-visualizer",
   "version": "1.0.0",
-  "description": "Flavor Bible Matrix is a project that utilizes data collected from the book 'The Flavor Bible' and represents it with a visual node graph.",
+  "description": "Flavor Bible Visualizer is a project that utilizes data collected from the book 'The Flavor Bible' and represents it with a visual node graph.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
