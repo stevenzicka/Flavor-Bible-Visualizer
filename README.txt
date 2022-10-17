@@ -1,4 +1,5 @@
-Flavor Bible Visualizer is a project that utilizes data collected from the book 'The Flavor Bible' and represents it dynamically with a force graph creating with D3.
+# Flavor Bible Visualizer 
+  is a project that utilizes data collected from the book 'The Flavor Bible' and represents it dynamically with a force graph creating with D3.
 
 This project was inspired by my culinary experience and the work of Grant Achatz at Alinea. Whenever I had the desire to get a little creative in the kitchen, I would turn to 'The Flavor Bible' for inspiration. 'The Flavor Bible' is a book written by Karen Page and Andrew Dornenburg, and it includes a list of over 600 ingredients and their pairings. If an ingredient pairs with the given ingredient, it is listed in plain text below. If an ingredient goes very well, it will be bolded and if it is a perfect match it will be bold and capitalized. The list was derived from interviewing some of the top chefs from around the world, and it ends up including interesting combinations, such as crab with avocado and almonds.
 
