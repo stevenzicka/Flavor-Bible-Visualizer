@@ -1,4 +1,4 @@
-import nodes from './Nodes.js';
+import nodes from './Nodes (backup).js';
 import links from './Links.js';
 import searchData from './searchData.js';
 import getNodeColor from './helpers/getNodeColor.js';
@@ -20,6 +20,15 @@ const dropdown = jSuites.dropdown(document.getElementById('dropdown'), {
     lazyLoading: true,
     width: '280px',
 });
+
+window.onload = (e) => {
+    for (let i = 405; i < searchData.length; i++) {
+        // console.log(searchData[i]);
+        console.log(i);
+        renderInitialNode(searchData[i]["value"])
+        resetData()
+    }
+}
 
 const svg = d3.select('svg')
 svg.attr('width', width).attr('height', height)
@@ -77,7 +86,6 @@ const form = document.getElementById('form')
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    // const text = document.getElementById('ingredient').value
     const text = dropdown.getText();
     if(!mainNodes.includes(text)) {
         mainNodes.push(text);
@@ -87,7 +95,6 @@ form.addEventListener('submit', (event) => {
 
 function renderInitialNode(text) {
     getNode(text);
-    
     // Render node based on user selection
     function getNode(text) {
         for(let i = 0; i < baseNodes.length; i++) {
@@ -102,6 +109,7 @@ function renderInitialNode(text) {
         if(baseLinks[i]["source"] == text) {
             savedLinks.push(baseLinks[i])
             selectedLinks.push(baseLinks[i]);
+            console.log(baseLinks[i]);
             getNode(baseLinks[i]["target"]);
         }
     }
@@ -109,6 +117,7 @@ function renderInitialNode(text) {
     if(selectedNodes.length > 0) {
         addItem(text);
     }
+
     updateSimulation()
 }
 
@@ -149,17 +158,6 @@ function updateColors() {
     let neighbors = []
     nodeElements.attr('fill', node => getNodeColor(node, neighbors))
 }
-    
-// function selectItem(selectedItem) {
-//     if(!mainNodes.includes(selectedId) && selectedId != '') {
-//         mainNodes.push(selectedId);
-
-//         // Update force strength to allow for better visibility of nodes
-//         simulation.force('charge', d3.forceManyBody().strength(-1000))
-//     } 
-    
-//     updateData(selectedId)
-// }
 
 function resetData() {
     selectedNodes = []
@@ -304,7 +302,7 @@ function updateGraph() {
 
 function updateSimulation() {
     updateGraph()
-  
+    
     simulation.nodes(baseNodes).on('tick', () => {
         nodeElements.attr('cx', node => Math.min(Math.max(node.x, 10), (width - 30)))
             .attr('cy', node => Math.min(Math.max(node.y, 10), (height - 60)))
