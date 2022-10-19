@@ -25,11 +25,6 @@ export default [
       "label": "african"
     },
     {
-      "id": "african",
-      "group": 23,
-      "label": "african"
-    },
-    {
       "id": "african cuisine",
       "group": 0,
       "label": "african cuisine"
@@ -42,11 +37,6 @@ export default [
     {
       "id": "aioli",
       "group": 20,
-      "label": "aioli"
-    },
-    {
-      "id": "aioli",
-      "group": 23,
       "label": "aioli"
     },
     {
@@ -190,11 +180,6 @@ export default [
       "label": "apples"
     },
     {
-      "id": "apples",
-      "group": 23,
-      "label": "apples"
-    },
-    {
       "id": "apples and apple cider",
       "group": 11,
       "label": "apples and apple cider"
@@ -222,11 +207,6 @@ export default [
     {
       "id": "apricots",
       "group": 11,
-      "label": "apricots"
-    },
-    {
-      "id": "apricots",
-      "group": 23,
       "label": "apricots"
     },
     {
@@ -310,11 +290,6 @@ export default [
       "label": "asparagus"
     },
     {
-      "id": "asparagus",
-      "group": 23,
-      "label": "asparagus"
-    },
-    {
       "id": "asparagus, white",
       "group": 9,
       "label": "asparagus, white"
@@ -395,11 +370,6 @@ export default [
       "label": "baked goods"
     },
     {
-      "id": "baked goods",
-      "group": 23,
-      "label": "baked goods"
-    },
-    {
       "id": "baking",
       "group": 23,
       "label": "baking"
@@ -435,11 +405,6 @@ export default [
       "label": "bananas"
     },
     {
-      "id": "bananas",
-      "group": 23,
-      "label": "bananas"
-    },
-    {
       "id": "barbecue",
       "group": 0,
       "label": "barbecue"
@@ -472,11 +437,6 @@ export default [
     {
       "id": "basil",
       "group": 10,
-      "label": "basil"
-    },
-    {
-      "id": "basil",
-      "group": 23,
       "label": "basil"
     },
     {
@@ -532,11 +492,6 @@ export default [
     {
       "id": "beans",
       "group": 3,
-      "label": "beans"
-    },
-    {
-      "id": "beans",
-      "group": 23,
       "label": "beans"
     },
     {
@@ -612,11 +567,6 @@ export default [
     {
       "id": "beef",
       "group": 2,
-      "label": "beef"
-    },
-    {
-      "id": "beef",
-      "group": 23,
       "label": "beef"
     },
     {
@@ -785,11 +735,6 @@ export default [
       "label": "beverages"
     },
     {
-      "id": "beverages",
-      "group": 23,
-      "label": "beverages"
-    },
-    {
       "id": "biryani",
       "group": 0,
       "label": "biryani"
@@ -875,11 +820,6 @@ export default [
       "label": "bonito flakes"
     },
     {
-      "id": "bonito flakes",
-      "group": 23,
-      "label": "bonito flakes"
-    },
-    {
       "id": "bonito flakes, dried",
       "group": 4,
       "label": "bonito flakes, dried"
@@ -907,11 +847,6 @@ export default [
     {
       "id": "bouquet garni",
       "group": 22,
-      "label": "bouquet garni"
-    },
-    {
-      "id": "bouquet garni",
-      "group": 23,
       "label": "bouquet garni"
     },
     {
@@ -952,11 +887,6 @@ export default [
     {
       "id": "bread",
       "group": 15,
-      "label": "bread"
-    },
-    {
-      "id": "bread",
-      "group": 23,
       "label": "bread"
     },
     {
@@ -1007,11 +937,6 @@ export default [
     {
       "id": "breakfast",
       "group": 0,
-      "label": "breakfast"
-    },
-    {
-      "id": "breakfast",
-      "group": 23,
       "label": "breakfast"
     },
     {
@@ -1090,11 +1015,6 @@ export default [
       "label": "buckwheat"
     },
     {
-      "id": "buckwheat",
-      "group": 23,
-      "label": "buckwheat"
-    },
-    {
       "id": "bulgur wheat",
       "group": 15,
       "label": "bulgur wheat"
@@ -1112,11 +1032,6 @@ export default [
     {
       "id": "butter and butter sauces",
       "group": 20,
-      "label": "butter and butter sauces"
-    },
-    {
-      "id": "butter and butter sauces",
-      "group": 23,
       "label": "butter and butter sauces"
     },
     {
@@ -1147,11 +1062,6 @@ export default [
     {
       "id": "cabbage",
       "group": 9,
-      "label": "cabbage"
-    },
-    {
-      "id": "cabbage",
-      "group": 23,
       "label": "cabbage"
     },
     {
@@ -1192,11 +1102,6 @@ export default [
     {
       "id": "caffeine",
       "group": 22,
-      "label": "caffeine"
-    },
-    {
-      "id": "caffeine",
-      "group": 23,
       "label": "caffeine"
     },
     {
@@ -1300,11 +1205,6 @@ export default [
       "label": "cardamom"
     },
     {
-      "id": "cardamom",
-      "group": 10,
-      "label": "cardamom"
-    },
-    {
       "id": "caribbean cuisine",
       "group": 0,
       "label": "caribbean cuisine"
@@ -1315,9 +1215,9 @@ export default [
       "label": "carpaccio"
     },
     {
-      "id": "carribbean cuisines",
+      "id": "caribbean cuisines",
       "group": 0,
-      "label": "carribbean cuisines"
+      "label": "caribbean cuisines"
     },
     {
       "id": "carrot",
@@ -1345,11 +1245,6 @@ export default [
       "label": "cashews"
     },
     {
-      "id": "cashews",
-      "group": 23,
-      "label": "cashews"
-    },
-    {
       "id": "casseroles",
       "group": 23,
       "label": "casseroles"
@@ -1372,11 +1267,6 @@ export default [
     {
       "id": "cauliflower",
       "group": 9,
-      "label": "cauliflower"
-    },
-    {
-      "id": "cauliflower",
-      "group": 23,
       "label": "cauliflower"
     },
     {
@@ -1510,11 +1400,6 @@ export default [
       "label": "chard"
     },
     {
-      "id": "chard",
-      "group": 23,
-      "label": "chard"
-    },
-    {
       "id": "chardonnay",
       "group": 14,
       "label": "chardonnay"
@@ -1532,11 +1417,6 @@ export default [
     {
       "id": "cheese",
       "group": 1,
-      "label": "cheese"
-    },
-    {
-      "id": "cheese",
-      "group": 23,
       "label": "cheese"
     },
     {
@@ -1791,12 +1671,7 @@ export default [
     },
     {
       "id": "cheeses",
-      "group": 23,
-      "label": "cheeses"
-    },
-    {
-      "id": "cheeses",
-      "group": 23,
+      "group": 1,
       "label": "cheeses"
     },
     {
@@ -1840,11 +1715,6 @@ export default [
       "label": "chicken"
     },
     {
-      "id": "chicken",
-      "group": 23,
-      "label": "chicken"
-    },
-    {
       "id": "chicken and other poultry",
       "group": 2,
       "label": "chicken and other poultry"
@@ -1870,11 +1740,6 @@ export default [
       "label": "chickpeas"
     },
     {
-      "id": "chickpeas",
-      "group": 23,
-      "label": "chickpeas"
-    },
-    {
       "id": "chickpeas and hummus",
       "group": 3,
       "label": "chickpeas and hummus"
@@ -1897,11 +1762,6 @@ export default [
     {
       "id": "chile peppers",
       "group": 5,
-      "label": "chile peppers"
-    },
-    {
-      "id": "chile peppers",
-      "group": 23,
       "label": "chile peppers"
     },
     {
@@ -1980,11 +1840,6 @@ export default [
       "label": "chili"
     },
     {
-      "id": "chili",
-      "group": 23,
-      "label": "chili"
-    },
-    {
       "id": "chili con carne",
       "group": 23,
       "label": "chili con carne"
@@ -2005,11 +1860,6 @@ export default [
       "label": "chili powder"
     },
     {
-      "id": "chili powder",
-      "group": 23,
-      "label": "chili powder"
-    },
-    {
       "id": "chili sauce",
       "group": 20,
       "label": "chili sauce"
@@ -2025,18 +1875,8 @@ export default [
       "label": "chinese cuisine"
     },
     {
-      "id": "chinese cuisine",
-      "group": 23,
-      "label": "chinese cuisine"
-    },
-    {
       "id": "chives",
       "group": 10,
-      "label": "chives"
-    },
-    {
-      "id": "chives",
-      "group": 23,
       "label": "chives"
     },
     {
@@ -2090,11 +1930,6 @@ export default [
       "label": "chowders"
     },
     {
-      "id": "chowders",
-      "group": 23,
-      "label": "chowders"
-    },
-    {
       "id": "christmas",
       "group": 22,
       "label": "christmas"
@@ -2120,16 +1955,6 @@ export default [
       "label": "cilantro"
     },
     {
-      "id": "cilantro",
-      "group": 23,
-      "label": "cilantro"
-    },
-    {
-      "id": "cilantro.",
-      "group": 23,
-      "label": "cilantro."
-    },
-    {
       "id": "cinnamon",
       "group": 10,
       "label": "cinnamon"
@@ -2147,11 +1972,6 @@ export default [
     {
       "id": "citrus",
       "group": 11,
-      "label": "citrus"
-    },
-    {
-      "id": "citrus",
-      "group": 23,
       "label": "citrus"
     },
     {
@@ -2210,11 +2030,6 @@ export default [
       "label": "cloves"
     },
     {
-      "id": "cloves",
-      "group": 23,
-      "label": "cloves"
-    },
-    {
       "id": "cobblers",
       "group": 0,
       "label": "cobblers"
@@ -2250,28 +2065,13 @@ export default [
       "label": "coconut"
     },
     {
-      "id": "coconut",
-      "group": 23,
-      "label": "coconut"
-    },
-    {
       "id": "coconut and coconut milk",
       "group": 11,
       "label": "coconut and coconut milk"
     },
     {
-      "id": "coconut and coconut milk",
-      "group": 23,
-      "label": "coconut and coconut milk"
-    },
-    {
       "id": "coconut milk",
       "group": 19,
-      "label": "coconut milk"
-    },
-    {
-      "id": "coconut milk",
-      "group": 23,
       "label": "coconut milk"
     },
     {
@@ -2350,11 +2150,6 @@ export default [
       "label": "coleslaw"
     },
     {
-      "id": "coleslaw",
-      "group": 23,
-      "label": "coleslaw"
-    },
-    {
       "id": "collard greens",
       "group": 23,
       "label": "collard greens"
@@ -2378,11 +2173,6 @@ export default [
       "id": "cookies",
       "group": 0,
       "label": "cookies"
-    },
-    {
-      "id": "cooking",
-      "group": 23,
-      "label": "cooking"
     },
     {
       "id": "cooking",
@@ -2460,11 +2250,6 @@ export default [
       "label": "cornmeal"
     },
     {
-      "id": "cornmeal",
-      "group": 23,
-      "label": "cornmeal"
-    },
-    {
       "id": "course of a menu as a piece of music having a melody",
       "group": 23,
       "label": "course of a menu as a piece of music having a melody"
@@ -2530,11 +2315,6 @@ export default [
       "label": "cream"
     },
     {
-      "id": "cream",
-      "group": 23,
-      "label": "cream"
-    },
-    {
       "id": "cream / milk",
       "group": 19,
       "label": "cream / milk"
@@ -2595,11 +2375,6 @@ export default [
       "label": "crème anglaise"
     },
     {
-      "id": "crème anglaise",
-      "group": 19,
-      "label": "crème anglaise"
-    },
-    {
       "id": "crème de cassis",
       "group": 19,
       "label": "crème de cassis"
@@ -2625,18 +2400,8 @@ export default [
       "label": "croutons"
     },
     {
-      "id": "croutons",
-      "group": 23,
-      "label": "croutons"
-    },
-    {
       "id": "crudités",
       "group": 0,
-      "label": "crudités"
-    },
-    {
-      "id": "crudités",
-      "group": 23,
       "label": "crudités"
     },
     {
@@ -2665,11 +2430,6 @@ export default [
       "label": "cumin"
     },
     {
-      "id": "cumin",
-      "group": 23,
-      "label": "cumin"
-    },
-    {
       "id": "cumin seeds",
       "group": 23,
       "label": "cumin seeds"
@@ -2690,11 +2450,6 @@ export default [
       "label": "cured meats"
     },
     {
-      "id": "cured meats",
-      "group": 23,
-      "label": "cured meats"
-    },
-    {
       "id": "cures",
       "group": 23,
       "label": "cures"
@@ -2705,18 +2460,8 @@ export default [
       "label": "currants"
     },
     {
-      "id": "currants",
-      "group": 23,
-      "label": "currants"
-    },
-    {
       "id": "curries",
       "group": 0,
-      "label": "curries"
-    },
-    {
-      "id": "curries",
-      "group": 23,
       "label": "curries"
     },
     {
@@ -2735,11 +2480,6 @@ export default [
       "label": "curry"
     },
     {
-      "id": "curry",
-      "group": 23,
-      "label": "curry"
-    },
-    {
       "id": "curry and curry leaf",
       "group": 10,
       "label": "curry and curry leaf"
@@ -2755,11 +2495,6 @@ export default [
       "label": "curry leaves"
     },
     {
-      "id": "curry leaves",
-      "group": 23,
-      "label": "curry leaves"
-    },
-    {
       "id": "curry paste",
       "group": 20,
       "label": "curry paste"
@@ -2772,11 +2507,6 @@ export default [
     {
       "id": "curry powder",
       "group": 10,
-      "label": "curry powder"
-    },
-    {
-      "id": "curry powder",
-      "group": 23,
       "label": "curry powder"
     },
     {
@@ -2805,11 +2535,6 @@ export default [
       "label": "custards"
     },
     {
-      "id": "custards",
-      "group": 23,
-      "label": "custards"
-    },
-    {
       "id": "cut the fat of the dish",
       "group": 23,
       "label": "cut the fat of the dish"
@@ -2835,11 +2560,6 @@ export default [
       "label": "dashi"
     },
     {
-      "id": "dashi",
-      "group": 23,
-      "label": "dashi"
-    },
-    {
       "id": "dates",
       "group": 11,
       "label": "dates"
@@ -2860,18 +2580,8 @@ export default [
       "label": "delicate fish"
     },
     {
-      "id": "delicate fish",
-      "group": 23,
-      "label": "delicate fish"
-    },
-    {
       "id": "desserts",
       "group": 0,
-      "label": "desserts"
-    },
-    {
-      "id": "desserts",
-      "group": 23,
       "label": "desserts"
     },
     {
@@ -2985,11 +2695,6 @@ export default [
       "label": "egg dishes"
     },
     {
-      "id": "egg dishes",
-      "group": 23,
-      "label": "egg dishes"
-    },
-    {
       "id": "egg salad",
       "group": 23,
       "label": "egg salad"
@@ -3020,11 +2725,6 @@ export default [
       "label": "eggs"
     },
     {
-      "id": "eggs",
-      "group": 23,
-      "label": "eggs"
-    },
-    {
       "id": "eggs and egg- based dishes — in general",
       "group": 23,
       "label": "eggs and egg- based dishes — in general"
@@ -3032,11 +2732,6 @@ export default [
     {
       "id": "eggs and egg dishes",
       "group": 0,
-      "label": "eggs and egg dishes"
-    },
-    {
-      "id": "eggs and egg dishes",
-      "group": 23,
       "label": "eggs and egg dishes"
     },
     {
@@ -3082,11 +2777,6 @@ export default [
     {
       "id": "endive",
       "group": 9,
-      "label": "endive"
-    },
-    {
-      "id": "endive",
-      "group": 23,
       "label": "endive"
     },
     {
@@ -3137,11 +2827,6 @@ export default [
     {
       "id": "falafel",
       "group": 0,
-      "label": "falafel"
-    },
-    {
-      "id": "falafel",
-      "group": 23,
       "label": "falafel"
     },
     {
@@ -3240,11 +2925,6 @@ export default [
       "label": "figs"
     },
     {
-      "id": "figs",
-      "group": 23,
-      "label": "figs"
-    },
-    {
       "id": "figs and fig cake",
       "group": 0,
       "label": "figs and fig cake"
@@ -3265,11 +2945,6 @@ export default [
       "label": "fines herbes"
     },
     {
-      "id": "fines herbes",
-      "group": 23,
-      "label": "fines herbes"
-    },
-    {
       "id": "finishing dishes",
       "group": 23,
       "label": "finishing dishes"
@@ -3282,11 +2957,6 @@ export default [
     {
       "id": "fish",
       "group": 4,
-      "label": "fish"
-    },
-    {
-      "id": "fish",
-      "group": 23,
       "label": "fish"
     },
     {
@@ -3305,11 +2975,6 @@ export default [
       "label": "five-spice powder"
     },
     {
-      "id": "five-spice powder",
-      "group": 23,
-      "label": "five-spice powder"
-    },
-    {
       "id": "flageolets",
       "group": 23,
       "label": "flageolets"
@@ -3318,11 +2983,6 @@ export default [
       "id": "flounder",
       "group": 4,
       "label": "flounder"
-    },
-    {
-      "id": "flour",
-      "group": 23,
-      "label": "flour"
     },
     {
       "id": "flour",
@@ -3520,11 +3180,6 @@ export default [
       "label": "game"
     },
     {
-      "id": "game",
-      "group": 23,
-      "label": "game"
-    },
-    {
       "id": "game — in general",
       "group": 2,
       "label": "game — in general"
@@ -3535,28 +3190,13 @@ export default [
       "label": "game and game birds"
     },
     {
-      "id": "game and game birds",
-      "group": 23,
-      "label": "game and game birds"
-    },
-    {
       "id": "game birds",
       "group": 2,
       "label": "game birds"
     },
     {
-      "id": "game birds",
-      "group": 23,
-      "label": "game birds"
-    },
-    {
       "id": "garam masala",
       "group": 10,
-      "label": "garam masala"
-    },
-    {
-      "id": "garam masala",
-      "group": 23,
       "label": "garam masala"
     },
     {
@@ -3610,11 +3250,6 @@ export default [
       "label": "ginger"
     },
     {
-      "id": "ginger",
-      "group": 13,
-      "label": "ginger"
-    },
-    {
       "id": "ginger consommé",
       "group": 0,
       "label": "ginger consommé"
@@ -3632,11 +3267,6 @@ export default [
     {
       "id": "gingerbread",
       "group": 0,
-      "label": "gingerbread"
-    },
-    {
-      "id": "gingerbread",
-      "group": 23,
       "label": "gingerbread"
     },
     {
@@ -3690,11 +3320,6 @@ export default [
       "label": "goulash"
     },
     {
-      "id": "goulash",
-      "group": 23,
-      "label": "goulash"
-    },
-    {
       "id": "graham cracker crumbs",
       "group": 15,
       "label": "graham cracker crumbs"
@@ -3707,11 +3332,6 @@ export default [
     {
       "id": "grains",
       "group": 15,
-      "label": "grains"
-    },
-    {
-      "id": "grains",
-      "group": 23,
       "label": "grains"
     },
     {
@@ -3735,11 +3355,6 @@ export default [
       "label": "grapefruit"
     },
     {
-      "id": "grapefruit",
-      "group": 23,
-      "label": "grapefruit"
-    },
-    {
       "id": "grapefruit juice",
       "group": 11,
       "label": "grapefruit juice"
@@ -3747,11 +3362,6 @@ export default [
     {
       "id": "grapes",
       "group": 11,
-      "label": "grapes"
-    },
-    {
-      "id": "grapes",
-      "group": 23,
       "label": "grapes"
     },
     {
@@ -3792,11 +3402,6 @@ export default [
     {
       "id": "greens",
       "group": 9,
-      "label": "greens"
-    },
-    {
-      "id": "greens",
-      "group": 23,
       "label": "greens"
     },
     {
@@ -3875,11 +3480,6 @@ export default [
       "label": "guacamole"
     },
     {
-      "id": "guacamole",
-      "group": 23,
-      "label": "guacamole"
-    },
-    {
       "id": "guava",
       "group": 11,
       "label": "guava"
@@ -3908,11 +3508,6 @@ export default [
       "id": "halibut",
       "group": 4,
       "label": "halibut"
-    },
-    {
-      "id": "ham",
-      "group": 2,
-      "label": "ham"
     },
     {
       "id": "ham",
@@ -3965,11 +3560,6 @@ export default [
       "label": "harissa"
     },
     {
-      "id": "harissa",
-      "group": 23,
-      "label": "harissa"
-    },
-    {
       "id": "hawaiian cuisine",
       "group": 23,
       "label": "hawaiian cuisine"
@@ -4015,18 +3605,8 @@ export default [
       "label": "herbes de provence"
     },
     {
-      "id": "herbes de provence",
-      "group": 23,
-      "label": "herbes de provence"
-    },
-    {
       "id": "herbs",
       "group": 10,
-      "label": "herbs"
-    },
-    {
-      "id": "herbs",
-      "group": 23,
       "label": "herbs"
     },
     {
@@ -4120,11 +3700,6 @@ export default [
       "label": "hummus"
     },
     {
-      "id": "hummus",
-      "group": 23,
-      "label": "hummus"
-    },
-    {
       "id": "hungarian cuisine",
       "group": 0,
       "label": "hungarian cuisine"
@@ -4215,11 +3790,6 @@ export default [
       "label": "irish cuisine"
     },
     {
-      "id": "irish cuisine",
-      "group": 23,
-      "label": "irish cuisine"
-    },
-    {
       "id": "irish whiskey",
       "group": 14,
       "label": "irish whiskey"
@@ -4227,11 +3797,6 @@ export default [
     {
       "id": "italian cuisine",
       "group": 0,
-      "label": "italian cuisine"
-    },
-    {
-      "id": "italian cuisine",
-      "group": 23,
       "label": "italian cuisine"
     },
     {
@@ -4260,11 +3825,6 @@ export default [
       "label": "jamaican cuisine"
     },
     {
-      "id": "jamaican cuisine",
-      "group": 23,
-      "label": "jamaican cuisine"
-    },
-    {
       "id": "jambalaya",
       "group": 0,
       "label": "jambalaya"
@@ -4290,11 +3850,6 @@ export default [
       "label": "japanese cuisine"
     },
     {
-      "id": "japanese cuisine",
-      "group": 23,
-      "label": "japanese cuisine"
-    },
-    {
       "id": "jasmine",
       "group": 23,
       "label": "jasmine"
@@ -4315,18 +3870,8 @@ export default [
       "label": "jerk seasoning"
     },
     {
-      "id": "jerk seasoning",
-      "group": 23,
-      "label": "jerk seasoning"
-    },
-    {
       "id": "jerked dishes",
       "group": 0,
-      "label": "jerked dishes"
-    },
-    {
-      "id": "jerked dishes",
-      "group": 23,
       "label": "jerked dishes"
     },
     {
@@ -4390,11 +3935,6 @@ export default [
       "label": "ketchup"
     },
     {
-      "id": "ketchup",
-      "group": 23,
-      "label": "ketchup"
-    },
-    {
       "id": "kidneys",
       "group": 23,
       "label": "kidneys"
@@ -4450,11 +3990,6 @@ export default [
       "label": "lamb"
     },
     {
-      "id": "lamb",
-      "group": 23,
-      "label": "lamb"
-    },
-    {
       "id": "lamb — in general",
       "group": 2,
       "label": "lamb — in general"
@@ -4487,11 +4022,6 @@ export default [
     {
       "id": "lavender",
       "group": 10,
-      "label": "lavender"
-    },
-    {
-      "id": "lavender",
-      "group": 23,
       "label": "lavender"
     },
     {
@@ -4575,11 +4105,6 @@ export default [
       "label": "lentils"
     },
     {
-      "id": "lentils",
-      "group": 23,
-      "label": "lentils"
-    },
-    {
       "id": "lettuce",
       "group": 9,
       "label": "lettuce"
@@ -4597,11 +4122,6 @@ export default [
     {
       "id": "lettuces",
       "group": 9,
-      "label": "lettuces"
-    },
-    {
-      "id": "lettuces",
-      "group": 23,
       "label": "lettuces"
     },
     {
@@ -4740,11 +4260,6 @@ export default [
       "label": "lychees"
     },
     {
-      "id": "m0starda",
-      "group": 23,
-      "label": "m0starda"
-    },
-    {
       "id": "macadamia",
       "group": 12,
       "label": "macadamia"
@@ -4802,11 +4317,6 @@ export default [
     {
       "id": "malt",
       "group": 15,
-      "label": "malt"
-    },
-    {
-      "id": "malt",
-      "group": 23,
       "label": "malt"
     },
     {
@@ -4915,11 +4425,6 @@ export default [
       "label": "meats"
     },
     {
-      "id": "meats",
-      "group": 23,
-      "label": "meats"
-    },
-    {
       "id": "meats and meat loaf",
       "group": 23,
       "label": "meats and meat loaf"
@@ -4960,11 +4465,6 @@ export default [
       "label": "melons"
     },
     {
-      "id": "melons",
-      "group": 23,
-      "label": "melons"
-    },
-    {
       "id": "menu",
       "group": 22,
       "label": "menu"
@@ -4985,11 +4485,6 @@ export default [
       "label": "mesclun salad greens"
     },
     {
-      "id": "mesclun salad greens",
-      "group": 23,
-      "label": "mesclun salad greens"
-    },
-    {
       "id": "mexican beverages and mole sauces",
       "group": 20,
       "label": "mexican beverages and mole sauces"
@@ -4997,11 +4492,6 @@ export default [
     {
       "id": "mexican cuisine",
       "group": 0,
-      "label": "mexican cuisine"
-    },
-    {
-      "id": "mexican cuisine",
-      "group": 23,
       "label": "mexican cuisine"
     },
     {
@@ -5040,11 +4530,6 @@ export default [
       "label": "milk"
     },
     {
-      "id": "milk",
-      "group": 23,
-      "label": "milk"
-    },
-    {
       "id": "milk-based dishes",
       "group": 23,
       "label": "milk-based dishes"
@@ -5052,11 +4537,6 @@ export default [
     {
       "id": "mint",
       "group": 10,
-      "label": "mint"
-    },
-    {
-      "id": "mint",
-      "group": 23,
       "label": "mint"
     },
     {
@@ -5080,18 +4560,8 @@ export default [
       "label": "mirepoix"
     },
     {
-      "id": "mirepoix",
-      "group": 23,
-      "label": "mirepoix"
-    },
-    {
       "id": "mirin",
       "group": 14,
-      "label": "mirin"
-    },
-    {
-      "id": "mirin",
-      "group": 23,
       "label": "mirin"
     },
     {
@@ -5165,11 +4635,6 @@ export default [
       "label": "mostarda"
     },
     {
-      "id": "mostarda",
-      "group": 23,
-      "label": "mostarda"
-    },
-    {
       "id": "muffins",
       "group": 0,
       "label": "muffins"
@@ -5177,11 +4642,6 @@ export default [
     {
       "id": "mushrooms",
       "group": 7,
-      "label": "mushrooms"
-    },
-    {
-      "id": "mushrooms",
-      "group": 23,
       "label": "mushrooms"
     },
     {
@@ -5235,28 +4695,13 @@ export default [
       "label": "mustard"
     },
     {
-      "id": "mustard",
-      "group": 23,
-      "label": "mustard"
-    },
-    {
       "id": "mustard and mustard seeds",
       "group": 17,
       "label": "mustard and mustard seeds"
     },
     {
-      "id": "mustard and mustard seeds",
-      "group": 23,
-      "label": "mustard and mustard seeds"
-    },
-    {
       "id": "mustard greens",
       "group": 9,
-      "label": "mustard greens"
-    },
-    {
-      "id": "mustard greens",
-      "group": 23,
       "label": "mustard greens"
     },
     {
@@ -5297,11 +4742,6 @@ export default [
     {
       "id": "new england cuisine",
       "group": 0,
-      "label": "new england cuisine"
-    },
-    {
-      "id": "new england cuisine",
-      "group": 23,
       "label": "new england cuisine"
     },
     {
@@ -5357,11 +4797,6 @@ export default [
     {
       "id": "nuts",
       "group": 12,
-      "label": "nuts"
-    },
-    {
-      "id": "nuts",
-      "group": 23,
       "label": "nuts"
     },
     {
@@ -5490,18 +4925,8 @@ export default [
       "label": "oily fish"
     },
     {
-      "id": "oily fish",
-      "group": 23,
-      "label": "oily fish"
-    },
-    {
       "id": "okra",
       "group": 9,
-      "label": "okra"
-    },
-    {
-      "id": "okra",
-      "group": 23,
       "label": "okra"
     },
     {
@@ -5520,19 +4945,9 @@ export default [
       "label": "olive oil"
     },
     {
-      "id": "olive oil",
-      "group": 23,
-      "label": "olive oil"
-    },
-    {
       "id": "olive oil–based dishes",
       "group": 23,
       "label": "olive oil–based dishes"
-    },
-    {
-      "id": "olives",
-      "group": 11,
-      "label": "olives"
     },
     {
       "id": "olives",
@@ -5550,11 +4965,6 @@ export default [
       "label": "onions"
     },
     {
-      "id": "onions",
-      "group": 23,
-      "label": "onions"
-    },
-    {
       "id": "onions — in general",
       "group": 9,
       "label": "onions — in general"
@@ -5567,11 +4977,6 @@ export default [
     {
       "id": "orange",
       "group": 11,
-      "label": "orange"
-    },
-    {
-      "id": "orange",
-      "group": 23,
       "label": "orange"
     },
     {
@@ -5597,11 +5002,6 @@ export default [
     {
       "id": "orange liqueur",
       "group": 14,
-      "label": "orange liqueur"
-    },
-    {
-      "id": "orange liqueur",
-      "group": 23,
       "label": "orange liqueur"
     },
     {
@@ -5650,11 +5050,6 @@ export default [
       "label": "oregano"
     },
     {
-      "id": "oregano",
-      "group": 23,
-      "label": "oregano"
-    },
-    {
       "id": "osso buco",
       "group": 23,
       "label": "osso buco"
@@ -5678,16 +5073,6 @@ export default [
       "id": "oysters",
       "group": 4,
       "label": "oysters"
-    },
-    {
-      "id": "oysters",
-      "group": 23,
-      "label": "oysters"
-    },
-    {
-      "id": "paella",
-      "group": 23,
-      "label": "paella"
     },
     {
       "id": "paella",
@@ -5720,11 +5105,6 @@ export default [
       "label": "panforte"
     },
     {
-      "id": "panforte",
-      "group": 23,
-      "label": "panforte"
-    },
-    {
       "id": "papaya",
       "group": 11,
       "label": "papaya"
@@ -5737,11 +5117,6 @@ export default [
     {
       "id": "paprika",
       "group": 10,
-      "label": "paprika"
-    },
-    {
-      "id": "paprika",
-      "group": 23,
       "label": "paprika"
     },
     {
@@ -5815,11 +5190,6 @@ export default [
       "label": "pasta"
     },
     {
-      "id": "pasta",
-      "group": 23,
-      "label": "pasta"
-    },
-    {
       "id": "pasta and pasta sauces",
       "group": 23,
       "label": "pasta and pasta sauces"
@@ -5870,11 +5240,6 @@ export default [
       "label": "peaches"
     },
     {
-      "id": "peaches",
-      "group": 23,
-      "label": "peaches"
-    },
-    {
       "id": "peanut oil",
       "group": 23,
       "label": "peanut oil"
@@ -5915,11 +5280,6 @@ export default [
       "label": "pears"
     },
     {
-      "id": "pears",
-      "group": 23,
-      "label": "pears"
-    },
-    {
       "id": "pears and pear paste",
       "group": 20,
       "label": "pears and pear paste"
@@ -5927,11 +5287,6 @@ export default [
     {
       "id": "peas",
       "group": 9,
-      "label": "peas"
-    },
-    {
-      "id": "peas",
-      "group": 23,
       "label": "peas"
     },
     {
@@ -6045,11 +5400,6 @@ export default [
       "label": "pesto"
     },
     {
-      "id": "pesto",
-      "group": 23,
-      "label": "pesto"
-    },
-    {
       "id": "pheasant",
       "group": 2,
       "label": "pheasant"
@@ -6080,11 +5430,6 @@ export default [
       "label": "pickles"
     },
     {
-      "id": "pickles",
-      "group": 23,
-      "label": "pickles"
-    },
-    {
       "id": "picnics",
       "group": 23,
       "label": "picnics"
@@ -6100,11 +5445,6 @@ export default [
       "label": "pies"
     },
     {
-      "id": "pies",
-      "group": 23,
-      "label": "pies"
-    },
-    {
       "id": "pike",
       "group": 23,
       "label": "pike"
@@ -6112,11 +5452,6 @@ export default [
     {
       "id": "pilaf",
       "group": 0,
-      "label": "pilaf"
-    },
-    {
-      "id": "pilaf",
-      "group": 23,
       "label": "pilaf"
     },
     {
@@ -6220,11 +5555,6 @@ export default [
       "label": "plums"
     },
     {
-      "id": "plums",
-      "group": 23,
-      "label": "plums"
-    },
-    {
       "id": "plums, dried",
       "group": 11,
       "label": "plums, dried"
@@ -6250,11 +5580,6 @@ export default [
       "label": "polenta"
     },
     {
-      "id": "polenta",
-      "group": 23,
-      "label": "polenta"
-    },
-    {
       "id": "polish cuisine",
       "group": 23,
       "label": "polish cuisine"
@@ -6275,18 +5600,8 @@ export default [
       "label": "pomegranate molasses"
     },
     {
-      "id": "pomegranate molasses",
-      "group": 23,
-      "label": "pomegranate molasses"
-    },
-    {
       "id": "pomegranates",
       "group": 11,
-      "label": "pomegranates"
-    },
-    {
-      "id": "pomegranates",
-      "group": 23,
       "label": "pomegranates"
     },
     {
@@ -6337,11 +5652,6 @@ export default [
     {
       "id": "pork",
       "group": 2,
-      "label": "pork"
-    },
-    {
-      "id": "pork",
-      "group": 23,
       "label": "pork"
     },
     {
@@ -6420,11 +5730,6 @@ export default [
       "label": "potatoes"
     },
     {
-      "id": "potatoes",
-      "group": 23,
-      "label": "potatoes"
-    },
-    {
       "id": "potatoes and potato salad",
       "group": 0,
       "label": "potatoes and potato salad"
@@ -6437,11 +5742,6 @@ export default [
     {
       "id": "poultry",
       "group": 2,
-      "label": "poultry"
-    },
-    {
-      "id": "poultry",
-      "group": 23,
       "label": "poultry"
     },
     {
@@ -6480,11 +5780,6 @@ export default [
       "label": "provençal cuisine"
     },
     {
-      "id": "provençal cuisine",
-      "group": 23,
-      "label": "provençal cuisine"
-    },
-    {
       "id": "prunes",
       "group": 11,
       "label": "prunes"
@@ -6495,11 +5790,6 @@ export default [
       "label": "puddings"
     },
     {
-      "id": "puddings",
-      "group": 23,
-      "label": "puddings"
-    },
-    {
       "id": "puff pastry",
       "group": 0,
       "label": "puff pastry"
@@ -6507,11 +5797,6 @@ export default [
     {
       "id": "pumpkin",
       "group": 11,
-      "label": "pumpkin"
-    },
-    {
-      "id": "pumpkin",
-      "group": 23,
       "label": "pumpkin"
     },
     {
@@ -6550,11 +5835,6 @@ export default [
       "label": "puttanesca sauce"
     },
     {
-      "id": "puttanesca sauce",
-      "group": 23,
-      "label": "puttanesca sauce"
-    },
-    {
       "id": "quail",
       "group": 2,
       "label": "quail"
@@ -6562,11 +5842,6 @@ export default [
     {
       "id": "quatre épices",
       "group": 10,
-      "label": "quatre épices"
-    },
-    {
-      "id": "quatre épices",
-      "group": 23,
       "label": "quatre épices"
     },
     {
@@ -6625,11 +5900,6 @@ export default [
       "label": "ras el hanout"
     },
     {
-      "id": "ras el hanout",
-      "group": 23,
-      "label": "ras el hanout"
-    },
-    {
       "id": "raspberries",
       "group": 11,
       "label": "raspberries"
@@ -6655,11 +5925,6 @@ export default [
       "label": "raw foods"
     },
     {
-      "id": "raw foods",
-      "group": 23,
-      "label": "raw foods"
-    },
-    {
       "id": "red pepper flakes",
       "group": 10,
       "label": "red pepper flakes"
@@ -6675,11 +5940,6 @@ export default [
       "label": "refried beans"
     },
     {
-      "id": "refried beans",
-      "group": 23,
-      "label": "refried beans"
-    },
-    {
       "id": "rémoulade sauce",
       "group": 20,
       "label": "rémoulade sauce"
@@ -6692,11 +5952,6 @@ export default [
     {
       "id": "rice",
       "group": 15,
-      "label": "rice"
-    },
-    {
-      "id": "rice",
-      "group": 23,
       "label": "rice"
     },
     {
@@ -6880,11 +6135,6 @@ export default [
       "label": "rose"
     },
     {
-      "id": "rose",
-      "group": 23,
-      "label": "rose"
-    },
-    {
       "id": "rose geranium",
       "group": 23,
       "label": "rose geranium"
@@ -6970,11 +6220,6 @@ export default [
       "label": "salads"
     },
     {
-      "id": "salads",
-      "group": 23,
-      "label": "salads"
-    },
-    {
       "id": "salads and salad dressing",
       "group": 23,
       "label": "salads and salad dressing"
@@ -6997,11 +6242,6 @@ export default [
     {
       "id": "salmon",
       "group": 4,
-      "label": "salmon"
-    },
-    {
-      "id": "salmon",
-      "group": 23,
       "label": "salmon"
     },
     {
@@ -7035,11 +6275,6 @@ export default [
       "label": "salsa verde"
     },
     {
-      "id": "salsa verde",
-      "group": 23,
-      "label": "salsa verde"
-    },
-    {
       "id": "salsas",
       "group": 0,
       "label": "salsas"
@@ -7062,11 +6297,6 @@ export default [
     {
       "id": "salt",
       "group": 16,
-      "label": "salt"
-    },
-    {
-      "id": "salt",
-      "group": 23,
       "label": "salt"
     },
     {
@@ -7175,11 +6405,6 @@ export default [
       "label": "sauces"
     },
     {
-      "id": "sauces",
-      "group": 23,
-      "label": "sauces"
-    },
-    {
       "id": "sauces and gravies",
       "group": 23,
       "label": "sauces and gravies"
@@ -7202,11 +6427,6 @@ export default [
     {
       "id": "sausages",
       "group": 2,
-      "label": "sausages"
-    },
-    {
-      "id": "sausages",
-      "group": 23,
       "label": "sausages"
     },
     {
@@ -7240,11 +6460,6 @@ export default [
       "label": "savory"
     },
     {
-      "id": "savory",
-      "group": 21,
-      "label": "savory"
-    },
-    {
       "id": "savory foods",
       "group": 23,
       "label": "savory foods"
@@ -7257,11 +6472,6 @@ export default [
     {
       "id": "scallops",
       "group": 4,
-      "label": "scallops"
-    },
-    {
-      "id": "scallops",
-      "group": 23,
       "label": "scallops"
     },
     {
@@ -7310,11 +6520,6 @@ export default [
       "label": "seafood"
     },
     {
-      "id": "seafood",
-      "group": 23,
-      "label": "seafood"
-    },
-    {
       "id": "seafood — in general",
       "group": 4,
       "label": "seafood — in general"
@@ -7323,11 +6528,6 @@ export default [
       "id": "seasoning",
       "group": 23,
       "label": "seasoning"
-    },
-    {
-      "id": "seaweed",
-      "group": 23,
-      "label": "seaweed"
     },
     {
       "id": "seaweed",
@@ -7390,11 +6590,6 @@ export default [
       "label": "shellfish"
     },
     {
-      "id": "shellfish",
-      "group": 23,
-      "label": "shellfish"
-    },
-    {
       "id": "sherry",
       "group": 8,
       "label": "sherry"
@@ -7430,11 +6625,6 @@ export default [
       "label": "shrimp"
     },
     {
-      "id": "shrimp",
-      "group": 23,
-      "label": "shrimp"
-    },
-    {
       "id": "shrimp paste",
       "group": 23,
       "label": "shrimp paste"
@@ -7467,11 +6657,6 @@ export default [
     {
       "id": "smoked fish",
       "group": 4,
-      "label": "smoked fish"
-    },
-    {
-      "id": "smoked fish",
-      "group": 23,
       "label": "smoked fish"
     },
     {
@@ -7575,11 +6760,6 @@ export default [
       "label": "soufflés"
     },
     {
-      "id": "soufflés",
-      "group": 23,
-      "label": "soufflés"
-    },
-    {
       "id": "soul food cuisine",
       "group": 0,
       "label": "soul food cuisine"
@@ -7592,11 +6772,6 @@ export default [
     {
       "id": "soups",
       "group": 0,
-      "label": "soups"
-    },
-    {
-      "id": "soups",
-      "group": 23,
       "label": "soups"
     },
     {
@@ -7635,11 +6810,6 @@ export default [
       "label": "southeast asian cuisine"
     },
     {
-      "id": "southeast asian cuisine",
-      "group": 23,
-      "label": "southeast asian cuisine"
-    },
-    {
       "id": "southeast asian cuisines",
       "group": 0,
       "label": "southeast asian cuisines"
@@ -7652,11 +6822,6 @@ export default [
     {
       "id": "southern cuisine",
       "group": 0,
-      "label": "southern cuisine"
-    },
-    {
-      "id": "southern cuisine",
-      "group": 23,
       "label": "southern cuisine"
     },
     {
@@ -7700,11 +6865,6 @@ export default [
       "label": "spanish cuisine"
     },
     {
-      "id": "spanish cuisine",
-      "group": 23,
-      "label": "spanish cuisine"
-    },
-    {
       "id": "spanish cusine",
       "group": 23,
       "label": "spanish cusine"
@@ -7742,11 +6902,6 @@ export default [
     {
       "id": "spinach",
       "group": 9,
-      "label": "spinach"
-    },
-    {
-      "id": "spinach",
-      "group": 23,
       "label": "spinach"
     },
     {
@@ -7815,11 +6970,6 @@ export default [
       "label": "squid"
     },
     {
-      "id": "squid",
-      "group": 23,
-      "label": "squid"
-    },
-    {
       "id": "squid ink",
       "group": 4,
       "label": "squid ink"
@@ -7875,11 +7025,6 @@ export default [
       "label": "stews"
     },
     {
-      "id": "stews",
-      "group": 23,
-      "label": "stews"
-    },
-    {
       "id": "stews and stewed dishes",
       "group": 0,
       "label": "stews and stewed dishes"
@@ -7898,11 +7043,6 @@ export default [
       "id": "stock",
       "group": 0,
       "label": "stock"
-    },
-    {
-      "id": "stocks",
-      "group": 0,
-      "label": "stocks"
     },
     {
       "id": "stocks",
@@ -7925,18 +7065,8 @@ export default [
       "label": "stone fruits"
     },
     {
-      "id": "stone fruits",
-      "group": 23,
-      "label": "stone fruits"
-    },
-    {
       "id": "strawberries",
       "group": 11,
-      "label": "strawberries"
-    },
-    {
-      "id": "strawberries",
-      "group": 23,
       "label": "strawberries"
     },
     {
@@ -7965,38 +7095,18 @@ export default [
       "label": "stuffing"
     },
     {
-      "id": "stuffing",
-      "group": 23,
-      "label": "stuffing"
-    },
-    {
       "id": "stuffings",
       "group": 0,
       "label": "stuffings"
     },
     {
-      "id": "stuffings",
-      "group": 23,
-      "label": "stuffings"
-    },
-    {
       "id": "succotash",
       "group": 0,
-      "label": "succotash"
-    },
-    {
-      "id": "succotash",
-      "group": 23,
       "label": "succotash"
     },
     {
       "id": "sugar",
       "group": 18,
-      "label": "sugar"
-    },
-    {
-      "id": "sugar",
-      "group": 23,
       "label": "sugar"
     },
     {
@@ -8070,11 +7180,6 @@ export default [
       "label": "sweet vegetables"
     },
     {
-      "id": "sweet vegetables",
-      "group": 23,
-      "label": "sweet vegetables"
-    },
-    {
       "id": "sweetbreads",
       "group": 2,
       "label": "sweetbreads"
@@ -8127,11 +7232,6 @@ export default [
     {
       "id": "tabbouleh",
       "group": 0,
-      "label": "tabbouleh"
-    },
-    {
-      "id": "tabbouleh",
-      "group": 23,
       "label": "tabbouleh"
     },
     {
@@ -8197,11 +7297,6 @@ export default [
     {
       "id": "tapenade",
       "group": 0,
-      "label": "tapenade"
-    },
-    {
-      "id": "tapenade",
-      "group": 23,
       "label": "tapenade"
     },
     {
@@ -8295,19 +7390,9 @@ export default [
       "label": "thai cuisine"
     },
     {
-      "id": "thai cuisine",
-      "group": 23,
-      "label": "thai cuisine"
-    },
-    {
       "id": "thanksgiving",
       "group": 23,
       "label": "thanksgiving"
-    },
-    {
-      "id": "the finished dish is served with poached and sautéed artichoke",
-      "group": 23,
-      "label": "the finished dish is served with poached and sautéed artichoke"
     },
     {
       "id": "thyme",
@@ -8362,11 +7447,6 @@ export default [
     {
       "id": "tomatoes",
       "group": 11,
-      "label": "tomatoes"
-    },
-    {
-      "id": "tomatoes",
-      "group": 23,
       "label": "tomatoes"
     },
     {
@@ -8525,11 +7605,6 @@ export default [
       "label": "turnips"
     },
     {
-      "id": "turnips",
-      "group": 23,
-      "label": "turnips"
-    },
-    {
       "id": "umami",
       "group": 21,
       "label": "umami"
@@ -8605,11 +7680,6 @@ export default [
       "label": "vegetables"
     },
     {
-      "id": "vegetables",
-      "group": 23,
-      "label": "vegetables"
-    },
-    {
       "id": "vegetables and root vegetables",
       "group": 9,
       "label": "vegetables and root vegetables"
@@ -8655,11 +7725,6 @@ export default [
       "label": "vietnamese cuisine"
     },
     {
-      "id": "vietnamese cuisine",
-      "group": 0,
-      "label": "vietnamese cuisine"
-    },
-    {
       "id": "vin santo",
       "group": 14,
       "label": "vin santo"
@@ -8682,11 +7747,6 @@ export default [
     {
       "id": "vincotto",
       "group": 20,
-      "label": "vincotto"
-    },
-    {
-      "id": "vincotto",
-      "group": 23,
       "label": "vincotto"
     },
     {
@@ -8800,11 +7860,6 @@ export default [
       "label": "walnuts"
     },
     {
-      "id": "walnuts",
-      "group": 23,
-      "label": "walnuts"
-    },
-    {
       "id": "walnuts and walnut oil",
       "group": 6,
       "label": "walnuts and walnut oil"
@@ -8817,11 +7872,6 @@ export default [
     {
       "id": "wasabi",
       "group": 13,
-      "label": "wasabi"
-    },
-    {
-      "id": "wasabi",
-      "group": 23,
       "label": "wasabi"
     },
     {
@@ -8870,11 +7920,6 @@ export default [
       "label": "wheat"
     },
     {
-      "id": "wheat",
-      "group": 23,
-      "label": "wheat"
-    },
-    {
       "id": "whey",
       "group": 23,
       "label": "whey"
@@ -8905,11 +7950,6 @@ export default [
       "label": "white wine"
     },
     {
-      "id": "white)",
-      "group": 23,
-      "label": "white)"
-    },
-    {
       "id": "wild rice",
       "group": 15,
       "label": "wild rice"
@@ -8917,11 +7957,6 @@ export default [
     {
       "id": "wine",
       "group": 14,
-      "label": "wine"
-    },
-    {
-      "id": "wine",
-      "group": 23,
       "label": "wine"
     },
     {
@@ -8950,11 +7985,6 @@ export default [
       "label": "worcestershire sauce"
     },
     {
-      "id": "worcestershire sauce",
-      "group": 23,
-      "label": "worcestershire sauce"
-    },
-    {
       "id": "yabbies",
       "group": 4,
       "label": "yabbies"
@@ -8972,11 +8002,6 @@ export default [
     {
       "id": "yogurt",
       "group": 19,
-      "label": "yogurt"
-    },
-    {
-      "id": "yogurt",
-      "group": 23,
       "label": "yogurt"
     },
     {
@@ -9018,16 +8043,6 @@ export default [
       "id": "zucchini",
       "group": 9,
       "label": "zucchini"
-    },
-    {
-      "id": "zucchini",
-      "group": 23,
-      "label": "zucchini"
-    },
-    {
-      "id": "zucchini blossoms",
-      "group": 23,
-      "label": "zucchini blossoms"
     },
     {
       "id": "zucchini blossoms",

@@ -8726,7 +8726,7 @@ export default [
   },
   {
     "source": "beans, black",
-    "target": "carribbean cuisine",
+    "target": "caribbean cuisine",
     "strength": 0.1
   },
   {
@@ -65111,7 +65111,7 @@ export default [
   },
   {
     "source": "nutmeg",
-    "target": "carribbean cuisines",
+    "target": "caribbean cuisines",
     "strength": 0.1
   },
   {
@@ -71444,11 +71444,11 @@ export default [
     "target": "custard",
     "strength": 0.1
   },
-  // {
-  //   "source": "passion fruit",
-  //   "target": "egg whites",
-  //   "strength": 0.1
-  // },
+  {
+    "source": "passion fruit",
+    "target": "egg whites",
+    "strength": 0.1
+  },
   {
     "source": "passion fruit",
     "target": "fish",
@@ -71544,11 +71544,11 @@ export default [
     "target": "sugar",
     "strength": 0.9
   },
-  // {
-  //   "source": "passion fruit",
-  //   "target": "tapioca",
-  //   "strength": 0.1
-  // },
+  {
+    "source": "passion fruit",
+    "target": "tapioca",
+    "strength": 0.1
+  },
   {
     "source": "passion fruit",
     "target": "tequila",
@@ -71604,11 +71604,11 @@ export default [
     "target": "beef",
     "strength": 0.1
   },
-  // {
-  //   "source": "pasta",
-  //   "target": "bottarga",
-  //   "strength": 0.1
-  // },
+  {
+    "source": "pasta",
+    "target": "bottarga",
+    "strength": 0.1
+  },
   {
     "source": "pasta",
     "target": "bread crumbs",
@@ -71956,7 +71956,7 @@ export default [
   },
   {
     "source": "pasta",
-    "target": "sweet potato",
+    "target": "sweet potatoes",
     "strength": 0.1
   },
   {
@@ -72161,7 +72161,7 @@ export default [
   },
   {
     "source": "peaches",
-    "target": "desserts and dessert sauces",
+    "target": "desserts",
     "strength": 0.1
   },
   {

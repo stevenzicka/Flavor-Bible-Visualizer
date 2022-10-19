@@ -1,18 +1,20 @@
-import nodes from './Nodes (backup).js';
+import nodes from './Nodes.js';
 import links from './Links.js';
 import searchData from './searchData.js';
 import getNodeColor from './helpers/getNodeColor.js';
 import * as d3 from "https://cdn.skypack.dev/d3@7";
-import { forceSimulation } from "https://cdn.skypack.dev/d3-force@3";
 
 const width = window.innerWidth
 const height = window.innerHeight - 100
 
+let originalNodes = [...nodes]
+let originalLinks = [...links]
 let baseLinks = [...links]
-let baseNodes = [...nodes]
+let baseNodes = nodes.map(d => Object.create(d))
 
 let savedLinks = []
 
+// Implement external dropdown menu
 const dropdown = jSuites.dropdown(document.getElementById('dropdown'), {
     data: searchData,
     format: 0,
@@ -21,14 +23,31 @@ const dropdown = jSuites.dropdown(document.getElementById('dropdown'), {
     width: '280px',
 });
 
-window.onload = (e) => {
-    for (let i = 405; i < searchData.length; i++) {
-        // console.log(searchData[i]);
-        console.log(i);
-        renderInitialNode(searchData[i]["value"])
-        resetData()
-    }
-}
+// Test for the ingredients loading
+// window.onload = (e) => {
+//     for (let i = 0; i < searchData.length; i++) {
+//         // console.log(searchData[i]);
+//         renderInitialNode(searchData[i]["value"])
+//         resetData()
+//     }
+// }
+
+// Test for node duplicates
+// let duplicates = []
+// let count = 0
+// for (let i = 0; i < baseNodes.length; i++) {
+//     for (let j = 0; j < baseNodes.length; j++) {
+//         if (baseNodes[i]["id"] == baseNodes[j]["id"]) {
+//             count += 1
+//         }
+//     }
+//     if (count > 1) {
+//         duplicates.push(baseNodes[i]["id"])
+//     }
+//     count = 0
+// }
+
+// console.log(duplicates);
 
 const svg = d3.select('svg')
 svg.attr('width', width).attr('height', height)
@@ -51,8 +70,11 @@ let simulation = d3
         .forceSimulation(baseNodes)
         .force('link', linkForce)
         .force('charge', d3.forceManyBody().strength(-120))
+        .force('x', d3.forceX(width / 2))
+        .force('y', d3.forceY(height / 2))
         .force('center', d3.forceCenter(width / 2, height / 2));
 
+// Drag function run on ticks upon mouse drag of node
 function drag(simulation) {
     function dragstarted(event) {
         if (!event.active) simulation.alphaTarget(0.7).restart();
@@ -84,6 +106,7 @@ let nodeArrayCheck = [];
 
 const form = document.getElementById('form')
 
+// Updates graph with selected ingredient nodes and links upon user submit
 form.addEventListener('submit', (event) => {
     event.preventDefault();
     const text = dropdown.getText();
@@ -109,7 +132,6 @@ function renderInitialNode(text) {
         if(baseLinks[i]["source"] == text) {
             savedLinks.push(baseLinks[i])
             selectedLinks.push(baseLinks[i]);
-            console.log(baseLinks[i]);
             getNode(baseLinks[i]["target"]);
         }
     }
@@ -118,6 +140,8 @@ function renderInitialNode(text) {
         addItem(text);
     }
 
+    console.log("Selected Nodes", selectedNodes);
+    console.log("Selected Links", selectedLinks);
     updateSimulation()
 }
 
@@ -149,7 +173,6 @@ function selectNode(selectedNode) {
     if(!mainNodes.includes(selectedId) && selectedId != '') {
         mainNodes.push(selectedId);
     } 
-    
     updateData(selectedId)
     updateColors()
 }
@@ -159,6 +182,7 @@ function updateColors() {
     nodeElements.attr('fill', node => getNodeColor(node, neighbors))
 }
 
+// Resets data to initial state
 function resetData() {
     selectedNodes = []
     selectedLinks = []
@@ -177,9 +201,13 @@ function resetData() {
             }
         }
     }
+
+    // baseLinks = originalLinks
+    // baseNodes = originalNodes
     updateSimulation()
 }
 
+// Rebuilds nodes that have been altered by D3 to their original state
 function rebuildObj(savedLinks) {
     let originalLinks = []
     for (let i = 0; i < savedLinks.length; i++) {
@@ -192,6 +220,7 @@ function rebuildObj(savedLinks) {
     return originalLinks
 }
 
+// Updates the data with only nodes that the main nodes share links with 
 function updateData(selectedId) {
 
     // Get all links associated with selectedId
@@ -234,6 +263,9 @@ function updateData(selectedId) {
         getNode(selectedLinksTemp[i]["target"]);
     }
 
+    // Delete duplicate nodes and links
+    selectedNodesTemp = uniq(selectedNodesTemp)
+
     // If the number of nodes or links changes is not none update the simulation
     if(selectedNodesTemp.length != 0 && selectedLinksTemp.length != 0){
         selectedLinks = selectedLinksTemp
@@ -251,11 +283,26 @@ function updateData(selectedId) {
             }
         }
     }
-
+    console.log("Update Nodes: ", selectedNodes);
+    console.log("Update Links: ", selectedLinks);
     nodeArrayCheck = [];
+    
 }
 
+// Uses hash lookups for prims and linear search with filters to remove duplicate values
+function uniq(a) {
+    var prims = {"boolean":{}, "number":{}, "string":{}}, objs = [];
 
+    return a.filter(function(item) {
+        var type = typeof item;
+        if(type in prims)
+            return prims[type].hasOwnProperty(item) ? false : (prims[type][item] = true);
+        else
+            return objs.indexOf(item) >= 0 ? false : objs.push(item);
+    });
+}
+
+// Updates the graph to show the nodes and links from only the selected ingredients 
 function updateGraph() {
 
     // links
@@ -300,6 +347,7 @@ function updateGraph() {
     textElements = textEnter.merge(textElements)
 }
 
+// Updates the simulation to include the new nodes, links, and text elements
 function updateSimulation() {
     updateGraph()
     
@@ -313,12 +361,21 @@ function updateSimulation() {
             .attr('x2', link => Math.min(Math.max(link.target.x, 10), (width - 30)))
             .attr('y2', link => Math.min(Math.max(link.target.y, 10), (height - 60)))
     })
+    simulation.alpha(1)
     updateColors()
     simulation.restart()
   }
 
+
+// Adds selected ingredient to table header and adds all of their links below 
 function addItem(item) {
+
     let table = document.getElementById('tableHeader')
+
+    if (table.childElementCount == mainNodes.length) {
+        return
+    }
+
     let tableItem = document.createElement('th')
     let newItem = document.createTextNode(item.toUpperCase())
 
@@ -335,7 +392,6 @@ function addItem(item) {
     tableItem.innerHTML += '&#8594'
     table.appendChild(tableItem)
 
-    // Add all targets to the table 
     let itemTarget = document.createElement('td')
     let tableBody = document.getElementById('tableBody')
     let newTarget 
@@ -346,52 +402,56 @@ function addItem(item) {
         tableBody.innerHTML = ''
     }
 
+    let targets = []
     for (let i = 0; i < selectedLinks.length; i++) {
         if (selectedLinks[i]['source'] == item) {
-            // let table = document.getElementsByTagName('tbody')[0]
-            // for (let i = 0; i < table.childElementCount; i++) {
-                // if (table.rows[i] != undefined) {
-                    // let rowValue = table.rows[i].firstChild.getAttribute('id')
-                    // if (rowValue == item) {
-                        // console.log(item);
-                    // }
-                // }
-            // }
-            rowItem = document.createElement('tr')
-            rowItem.setAttribute('id', 'rowItem')
-            if (selectedLinks[i]['strength'] == 0.5) {
-                newTarget = document.createElement('strong')
-                let target = document.createTextNode(selectedLinks[i]['target'])
-                newTarget.appendChild(target)
-            } else if (selectedLinks[i]['strength'] == 0.9) {
-                newTarget = document.createElement('strong')
-                let target = document.createTextNode(selectedLinks[i]['target'].toUpperCase())
-                newTarget.appendChild(target)
-            } else {
-                newTarget = document.createTextNode(selectedLinks[i]['target'])
+            
+            // Check if new target is a duplicate
+            let isDup = "false"
+            for (let j = 0; j < targets.length; j++) {
+                if (targets[j] == selectedLinks[i]['target']) {
+                    isDup = "true"
+                }
             }
 
-            // Get node object for selectNode function
-            // let selectedNode
-            // for (let i = 0; i < selectedNodes.length; i++) {
-            //     if (selectedNodes[i]['id'] == item) {
-            //         selectedNode = selectedNodes[i]
-            //     }
-            // }
+            if (isDup == "false") {
+                targets.push(selectedLinks[i]['target'])
+                rowItem = document.createElement('tr')
+                rowItem.setAttribute('id', 'rowItem')
+                if (selectedLinks[i]['strength'] == 0.5) {
+                    newTarget = document.createElement('strong')
+                    let target = document.createTextNode(selectedLinks[i]['target'])
+                    newTarget.appendChild(target)
+                } else if (selectedLinks[i]['strength'] == 0.9) {
+                    newTarget = document.createElement('strong')
+                    let target = document.createTextNode(selectedLinks[i]['target'].toUpperCase())
+                    newTarget.appendChild(target)
+                } else {
+                    newTarget = document.createTextNode(selectedLinks[i]['target'])
+                }
 
-            itemTarget.appendChild(newTarget)
-            itemTarget.classname = 'targetItem'
-            itemTarget.setAttribute('id', selectedLinks[i]['target'])
-            rowItem.appendChild(itemTarget)
-            tableBody.appendChild(rowItem)
-            itemTarget = document.createElement('td')
+                itemTarget.appendChild(newTarget)
+                itemTarget.classname = 'targetItem'
+                itemTarget.setAttribute('id', selectedLinks[i]['target'])
+                rowItem.appendChild(itemTarget)
+                tableBody.appendChild(rowItem)
+                itemTarget = document.createElement('td')
+            }
         }
     }
-    // let itemCheck = document.querySelectorAll("#rowItem")
-    // itemCheck.onclick = selectItem(item)
+    let tBody = document.getElementById('tableBody')
+    let tRows = tBody.getElementsByTagName('td')
+    for (let i = 0; i < tRows.length; i++) {
+        tRows[i].onclick = function(){
+            if(!mainNodes.includes(tRows[i]['id'])) {
+                mainNodes.push(tRows[i]['id'])
+            }
+            updateData(tRows[i]['id'])
+        }
+    }
 }
 
-// Removes selected item from list
+// Removes selected item from list and graph
 searchTable.addEventListener('click', function(e) {
     if (e.target.dataset.action === 'delete') {
         e.target.closest('.tableItem').remove();
@@ -400,24 +460,23 @@ searchTable.addEventListener('click', function(e) {
                 mainNodes.splice(i, 1);
             }
         }
-    }
 
-    // Remove list of items 
-    let tableHeader = document.getElementById('tableHeader')
-    let tableBody = document.getElementById('tableBody')
+        // Remove list of items 
+        let tableHeader = document.getElementById('tableHeader')
+        let tableBody = document.getElementById('tableBody')
     
-    if (tableHeader.childElementCount < 1) {
-        tableBody.innerHTML = ''
+        if (tableHeader.childElementCount < 1) {
+            tableBody.innerHTML = ''
+        }
+    
+        resetData()
+        renderOriginalNode(mainNodes[0])
+        for (let i = 1; i < mainNodes.length; i++) {
+            updateData(mainNodes[i])
+        }
     }
+});
 
-    resetData()
-    renderOriginalNode(mainNodes[0])
-    simulation.force('charge', d3.forceManyBody().strength(-120))
-
-    // for (let i = 1; i < mainNodes.length; i++) {
-        // updateData(mainNodes[i])
-    // }
-  });
 
 
 

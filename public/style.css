@@ -13,12 +13,9 @@
     stroke: #777;
     stroke-width: 2px;
 }
-/* circle {
-    fill: rgb(190, 36, 36);
-} */
+
 line {
     stroke: #ccc;
-    /* stroke: rgb(218, 178, 70) */
 }
 
 
@@ -29,11 +26,25 @@ td, tr {
 
 tbody {
     display: block;
-    height: 100px;
+    height: 200px;
     overflow: auto;
 }
 
 #rowItem:hover {
     cursor: pointer;
-    background-color: rgb(255, 145, 133);
+    background-color: rgba(153, 200, 11, 0.99);
+}
+
+#btnDelete:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+#search {
+    font-family: "Open Sans";
+}
+
+#search:hover {
+    cursor: pointer;
+    background-color: rgba(153, 200, 11, 0.99);
 }
