@@ -139,33 +139,33 @@ function renderInitialNode(text) {
     if(selectedNodes.length > 0) {
         addItem(text);
     }
-
-    console.log("Selected Nodes", selectedNodes);
-    console.log("Selected Links", selectedLinks);
     updateSimulation()
 }
 
-function renderOriginalNode(text) {
-    getNode(text);
+// function renderOriginalNode(text) {
+//     getNode(text);
     
-    // Render node based on user selection
-    function getNode(text) {
-        for(let i = 0; i < baseNodes.length; i++) {
-            if(baseNodes[i]["id"] == text) {
-                selectedNodes.push(baseNodes[i]);
-            }
-        }
-    }
+//     // Render node based on user selection
+//     function getNode(text) {
+//         for(let i = 0; i < baseNodes.length; i++) {
+//             if(baseNodes[i]["id"] == text) {
+//                 selectedNodes.push(baseNodes[i]);
+//             }
+//         }
+//     }
 
-    // Render all nodes that are targets of source node
-    for(let i = 0; i < baseLinks.length; i++) {
-        if(baseLinks[i]["source"] == text) {
-            selectedLinks.push(baseLinks[i]);
-            getNode(baseLinks[i]["target"]);
-        }
-    }
-    updateSimulation()
-}
+//     // Render all nodes that are targets of source node
+//     for(let i = 0; i < baseLinks.length; i++) {
+//         if(baseLinks[i]["source"] == text) {
+//             selectedLinks.push(baseLinks[i]);
+//             getNode(baseLinks[i]["target"]);
+//         }
+//     }
+//     if(selectedNodes.length > 0) {
+//         addItem(text);
+//     }
+//     updateSimulation()
+// }
 
 function selectNode(selectedNode) {
     selectedId = selectedNode.target.id
@@ -283,8 +283,6 @@ function updateData(selectedId) {
             }
         }
     }
-    console.log("Update Nodes: ", selectedNodes);
-    console.log("Update Links: ", selectedLinks);
     nodeArrayCheck = [];
     
 }
@@ -470,7 +468,7 @@ searchTable.addEventListener('click', function(e) {
         }
     
         resetData()
-        renderOriginalNode(mainNodes[0])
+        renderInitialNode(mainNodes[0])
         for (let i = 1; i < mainNodes.length; i++) {
             updateData(mainNodes[i])
         }
