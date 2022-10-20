@@ -12,11 +12,7 @@ I used an EPUB parser to convert the electronic Flavor Bible text into text that
 
 
 Known Issues:
- - Some items do not have any associated links, or have corrupted links and will not run. This is an issue that will be fixed with a little more data cleaning.
- - If you remove an item, it will return to the initial state, but it will not allow the user to click on that item again. 
- - Some items in the table will be doubled if more than 2 nodes have been selected. This is due to the program referencing all the main node links, which may double up if a node shares most of the same links with the previous node. 
- - Clicking on the table items to add is still in progress
- - Group colors and their legend is still in progress
+ - If you remove an item, it will return to the previous state, but sometimes it will not allow the user to click on that item again. 
 
 
 Partial credit goes to [areeves87](https://github.com/areeves87/Flavor-Bible-App), he was the first person I found to create something like this and was part of the inspiration for how this data looks.
