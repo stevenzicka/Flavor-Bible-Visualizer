@@ -2,7 +2,7 @@ import nodes from './Nodes.js';
 import links from './Links.js';
 import searchData from './searchData.js';
 import getNodeColor from './helpers/getNodeColor.js';
-import * as d3 from "https://cdn.skypack.dev/d3@7";
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 const width = window.innerWidth
 const height = window.innerHeight - 100
@@ -141,31 +141,6 @@ function renderInitialNode(text) {
     }
     updateSimulation()
 }
-
-// function renderOriginalNode(text) {
-//     getNode(text);
-    
-//     // Render node based on user selection
-//     function getNode(text) {
-//         for(let i = 0; i < baseNodes.length; i++) {
-//             if(baseNodes[i]["id"] == text) {
-//                 selectedNodes.push(baseNodes[i]);
-//             }
-//         }
-//     }
-
-//     // Render all nodes that are targets of source node
-//     for(let i = 0; i < baseLinks.length; i++) {
-//         if(baseLinks[i]["source"] == text) {
-//             selectedLinks.push(baseLinks[i]);
-//             getNode(baseLinks[i]["target"]);
-//         }
-//     }
-//     if(selectedNodes.length > 0) {
-//         addItem(text);
-//     }
-//     updateSimulation()
-// }
 
 function selectNode(selectedNode) {
     selectedId = selectedNode.target.id
